@@ -9,7 +9,7 @@ class Vimeo90KDataset(Dataset):
 
     def _get_sample_list(self):
         sample_list = []
-        with open(os.path.join(self.data_dir, "tri_list.txt"), "r") as f:
+        with open(os.path.join(self.data_dir, "tri_trainlist.txt"), "r") as f:
             for line in f:
                 if (len(line.strip())>0):
                     sample_list.append(line.strip())
