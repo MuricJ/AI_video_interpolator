@@ -28,7 +28,7 @@ You have to acquire the following:
      ```bash
      python main.py
      ```
-    By default, the program will start training. Currently here is not CLI interface, behaviour can be altered by calling the appropraite functoin at the bottom of the main.py file. It contains examples for inference and generating videos.
+    By default, the program will start training. Currently here is no CLI interface, behaviour can be altered by calling the appropraite function at the bottom of the main.py file. It contains examples for inference and generating videos.
 
 4. **Default configuration:**
      ```
@@ -40,7 +40,7 @@ You have to acquire the following:
      ```
 ---
 
-## 📂 **Project Structure**
+## **Project Structure**
 ```
 root/
 ├── src/
